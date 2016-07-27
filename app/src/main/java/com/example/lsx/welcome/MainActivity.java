@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onLoading(long total, long current, boolean isUploading) {
                                 //testTextView.setText(current + "/" + total);
-                                Log.d(TAG, "onLoading: 加载成功否？");
+                                //Log.d(TAG, "onLoading: 加载成功否？");
+                                Log.d(TAG, (current + "/" + total));
                             }
 
                             @Override
